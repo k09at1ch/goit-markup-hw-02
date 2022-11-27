@@ -11,7 +11,23 @@
 
 
 
-.button:hover{
+.button1:hover{
+    color: chartreuse;
+}
+
+.button2:hover{
+    color: chartreuse;
+}
+
+.button3:hover{
+    color: chartreuse;
+}
+
+.button4:hover{
+    color: chartreuse;
+}
+
+.button5:hover{
     color: chartreuse;
 }
 
