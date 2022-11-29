@@ -23,6 +23,7 @@
     height: 24px;
     left: 348px;
     top: 24px;
+    list-style: none;
 }
 
 .header1{
@@ -111,6 +112,11 @@
     align-items: center;
     letter-spacing: 0.04em;
 }
+
+.button{
+    list-style: none;
+}
+
 .web{
     width: 44px;
     height: 24px;
@@ -231,6 +237,14 @@
     order: 4;
     flex-grow: 0;
     cursor: pointer
+}
+
+.main-list{
+    list-style: none;
+}
+
+.list-style-none{
+    list-style: none;
 }
 
 .font-class-every1{
