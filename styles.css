@@ -2,6 +2,10 @@
     color: black;
 }
 
+body{
+    text-transform: none;
+}
+
 .general{
     width: 71px;
     height: 24px;
@@ -129,6 +133,10 @@
 
 .hover-links:hover{
     color: #4D5AE5;
+}
+
+.hover-links{
+    text-transform: none;
 }
 
 .hidden-title{
@@ -266,7 +274,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .main{
