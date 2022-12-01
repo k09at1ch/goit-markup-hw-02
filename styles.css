@@ -2,8 +2,12 @@
     color: black;
 }
 
-body{
-    text-transform: none;
+header{
+    text-decoration: none;
+}
+
+.web1{
+    text-decoration: none;  
 }
 
 .general{
@@ -14,6 +18,7 @@ body{
     font-weight: 800;
     cursor: pointer;
     background-color: white;
+    text-decoration: none;
 }
 
 .header{
@@ -22,12 +27,8 @@ body{
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 348px;
-    top: 24px;
     list-style: none;
+    text-decoration: none;
 }
 
 .header1{
@@ -40,7 +41,8 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .header2{
@@ -53,7 +55,8 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .header3{
@@ -66,33 +69,28 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .email{
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;    
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-decoration: none;
 }
 
 .number{
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;    
+ 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-decoration: none;
 }
 
 .h1{
@@ -104,17 +102,8 @@ body{
     line-height: 60px;    
 }
 
-.button-index{
-    width: 106px;
-    height: 19px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
+.hidden{
+    display: none;
 }
 
 .button{
@@ -143,6 +132,19 @@ body{
     opacity: 0;
 }
 
+.button{
+    padding: 16px 32px;
+    gap: 10px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: green;
+}
+
 .button1:hover{
     color: chartreuse;
 }
@@ -164,86 +166,46 @@ body{
 }
 
 .button1{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px 16px;
-    width: 69px;
+    width: 116px;
     height: 48px;
-    border-radius: 4px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     cursor: pointer
 }
 
 .button2{
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    width: 116px;
-    height: 48px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    cursor: pointer
+    cursor: pointer;
+    width: 78px;
+    height: 48px;
 }
 
 .button3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
     width: 78px;
     height: 48px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
     cursor: pointer
 }
 
 .button4{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
     width: 101px;
     height: 48px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
     cursor: pointer
 }
 
 .button5{
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
     width: 126px;
     height: 48px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    flex: none;
-    order: 4;
-    flex-grow: 0;
     cursor: pointer
 }
 
@@ -283,11 +245,6 @@ body{
 }
 
 .last-text{
-    position: absolute;
-    width: 264px;
-    height: 72px;
-    left: 156px;
-    top: 1902px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -297,10 +254,6 @@ body{
 }
 
 .font-class-every3{
-    position: absolute;
-    width: 264px;
-    height: 72px;
-    left: 156px;
     top: 1902px;
     font-family: 'Roboto';
     font-style: normal;
@@ -339,11 +292,15 @@ body{
     line-height: 40px;
 }
 
+.list3{
+    list-style: none;
+}
 .what-doing-ex1{
     box-sizing: border-box;
     background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
     background-blend-mode: soft-light, normal;    
     border: 1px solid #E7E9FC;
+    list-style: none;
 }
 
 .what-doing-ex2{
@@ -351,6 +308,7 @@ body{
     background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
     background-blend-mode: soft-light, normal;    
     border: 1px solid #E7E9FC;
+    list-style: none;
 }
 
 .what-doing-ex3{
@@ -358,8 +316,7 @@ body{
     background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
     background-blend-mode: soft-light, normal;
     border: 1px solid #E7E9FC;
-    position: absolute;
-    position: absolute;
+    list-style: none;
 }
 
 .our-team{
@@ -368,78 +325,35 @@ body{
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
 .our-team-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 156px;
-    top: 1783px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 444px;
-    top: 1783px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 732px;
-    top: 1783px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 1020px;
-    top: 1783px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
+
+
 
 .footer-h3{
     width: 71px;
@@ -450,13 +364,9 @@ body{
     font-size: 18px;
     line-height: 21px;
     display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .web-footer{
@@ -468,20 +378,12 @@ body{
     font-size: 18px;
     line-height: 21px;  
     display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;    
-    color: #4D5AE5;    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    color: #4D5AE5;  
+    text-decoration: none;  
 }
 
 .footer-last-text{
-    position: absolute;
-    width: 264px;
-    height: 72px;
-    top: 38px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -492,10 +394,13 @@ body{
 }
 
 .footer{
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 310px;
+}
+.footer1{
     position: absolute;
-    width: 264px;
-    height: 110px;
-    top: 2383px;
+    top: 4150px;
     background-color: #2E2F42;
     width: 1440px;
     height: 310px;
