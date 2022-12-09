@@ -2,12 +2,73 @@
     color: black;
 }
 
-header{
-    text-decoration: none;
+.header-bg{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;    
+}
+
+.nig{
+    position: absolute;
+    top: 24px;
+    left: 200px;
 }
 
 .web1{
     text-decoration: none;  
+    width: 71px;
+    height: 22px; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;  
+    /* position: absolute;
+    top: 24px;
+    left: 200px; */
+}
+
+.web-foot{
+    width: 44px;
+    height: 22px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;  
+    display: flex;
+    text-transform: uppercase;    
+    color: #4D5AE5;  
+    text-decoration: none;
+    position: absolute;
+    top: 24px;
+    left: 156px;  
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1440px;
+    height: 72px;
+    margin-right: 77px;
+}
+
+.h1-main{
+    position: absolute;
+    width: 1440px;
+    height: 603px;
+    left: 0px;
+    top: 72px;
+    background: #2E2F42
 }
 
 .general{
@@ -19,6 +80,7 @@ header{
     cursor: pointer;
     background-color: white;
     text-decoration: none;
+    display: flex;  
 }
 
 .header{
@@ -34,6 +96,7 @@ header{
 .header1{
     width: 48px;
     height: 24px;
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -43,11 +106,21 @@ header{
     color: #2E2F42;
     cursor: pointer;
     text-decoration: none;
+    position: absolute;
+    top: 24px;
+    left: 348px;
+    right: 1044px;
+    bottom: 24px;
+}
+
+.header1:hover{
+    color: #4D5AE5;
 }
 
 .header2{
     width: 66px;
     height: 24px;
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -57,11 +130,21 @@ header{
     color: #2E2F42;
     cursor: pointer;
     text-decoration: none;
+    position: absolute;
+    top: 24px;
+    left: 436px;
+    right: 938px;
+    bottom: 24px;
+}
+
+.header2:hover{
+    color: #4D5AE5;
 }
 
 .header3{
     width: 66px;
     height: 24px;
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -71,35 +154,85 @@ header{
     color: #2E2F42;
     cursor: pointer;
     text-decoration: none;
+    position: absolute;
+    top: 24px;
+    left: 542px;
+    right: 831px;
+    bottom: 24px;
+}
+
+.header3:hover{
+    color: #4D5AE5;
 }
 
 .email{
-    
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+    color: black;
+}
+
+.email:hover{
+    color: #4D5AE5;
 }
 
 .number{
- 
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+    color: black;
+}
+
+.number:hover{
+    color: #4D5AE5;
 }
 
 .h1{
-   
+    color: white;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;    
+    line-height: 60px;
+    position: absolute;
+    width: 492px;
+    height: 120px;
+    left: 474px;
+    top: 192px;   
+}
+
+.strategy{
+    margin-right: 24px;
+}
+
+.Punctuality{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.Diligence{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.technologies{
+    margin-left: 24px;
 }
 
 .hidden{
@@ -107,7 +240,23 @@ header{
 }
 
 .button{
-    list-style: none;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 432px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    display: flex;
+    position: absolute;
 }
 
 .web{
@@ -215,6 +364,15 @@ header{
 
 .list-style-none{
     list-style: none;
+    display: flex;
+    position: absolute;
+    left: 156px;
+    top: 795px;
+}
+
+.list-style-non{
+    list-style: none;
+    display: flex;
 }
 
 .font-class-every1{
@@ -254,10 +412,10 @@ header{
 }
 
 .font-class-every3{
-    top: 1902px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    top: 1902px; 
+    font-family: 'Roboto'; 
+    font-style: normal; 
+    font-weight: 400; 
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -271,6 +429,7 @@ header{
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+    text-align: center;
 }
 
 .descrip{
@@ -282,6 +441,7 @@ header{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .what-doing{
@@ -290,10 +450,17 @@ header{
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
+    position: absolute;
+    width: 322px;
+    height: 40px;
+    left: 559px;
+    top: 1019px;
 }
 
 .list3{
     list-style: none;
+    display: inline-flex;
+    position: absolute;
 }
 .what-doing-ex1{
     box-sizing: border-box;
@@ -301,6 +468,11 @@ header{
     background-blend-mode: soft-light, normal;    
     border: 1px solid #E7E9FC;
     list-style: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    position: absolute;
+    top: 1131px;
+    left: 156px;
 }
 
 .what-doing-ex2{
@@ -309,6 +481,11 @@ header{
     background-blend-mode: soft-light, normal;    
     border: 1px solid #E7E9FC;
     list-style: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    position: absolute;
+    top: 1131px;
+    left: 540px;
 }
 
 .what-doing-ex3{
@@ -317,6 +494,11 @@ header{
     background-blend-mode: soft-light, normal;
     border: 1px solid #E7E9FC;
     list-style: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    position: absolute;
+    top: 1131px;
+    left: 924px;
 }
 
 .our-team{
@@ -327,37 +509,72 @@ header{
     line-height: 40px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    position: absolute;
+    left: 639px;
+    top: 1671px;
 }
 
 .our-team-1{
-    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1783px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;    
 }
 
 .our-team-2{
-    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 444px;
+    top: 1783px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;    
 }
 
 .our-team-3{
-    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 732px;
+    top: 1783px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-4{
-    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 1020px;
+    top: 1783px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
-
-
-.footer-h3{
-    width: 71px;
-    height: 22px; 
+.footer-stud{ 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -366,12 +583,13 @@ header{
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;    
+    color: #F4F4FD;  
+    position: absolute;
+    left: 200px;
+    top: 2380px;
 }
 
 .web-footer{
-    width: 44px;
-    height: 22px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -381,27 +599,22 @@ header{
     text-transform: uppercase;    
     color: #4D5AE5;  
     text-decoration: none;  
+    position: absolute;
+    left: 156px;
+    top: 2380px;
 }
 
 .footer-last-text{
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2421px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;    
+    line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-}
-
-.footer{
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 310px;
-}
-.footer1{
-    position: absolute;
-    top: 4150px;
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 310px;
 }
